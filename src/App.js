@@ -1,13 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
+import {x, y} from './variaveis.js';
+import titulo from './Titulo';
+import Titulo from './Titulo';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        <Titulo></Titulo>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Esse é meu novo App. {x} <br/>
+          {y}
         </p>
         <a
           className="App-link"
